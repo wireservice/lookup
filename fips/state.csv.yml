@@ -1,2 +1,10 @@
-fips: Text
-state: Text
+dataset: Census Bureau state FIPS codes and US state names
+description: TKTK
+version_description: N/A
+origin: Census Bureau
+origin_url: TKTK
+contributor: Christopher Groskopf
+contributor_email: chrisgroskopf@gmail.com
+columns:
+  fips: Text
+  state: Text
