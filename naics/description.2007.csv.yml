@@ -1,8 +1,8 @@
 dataset: North American Industry Classification System codes
 description: TKTK
-version_description: "2012"
+version_description: "2007"
 origin: United States Census Bureau
-origin_url: http://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2012
+origin_url: http://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2007
 contributor: Christopher Groskopf
 contributor_email: chrisgroskopf@gmail.com
 columns:
