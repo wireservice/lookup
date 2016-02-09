@@ -8,4 +8,5 @@ contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
   usps: Text
-  state: Text
+  year: Text
+  population: Number
