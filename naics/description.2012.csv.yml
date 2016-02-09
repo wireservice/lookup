@@ -1,6 +1,5 @@
-dataset: North American Industry Classification System codes
-description: TKTK
-version_description: "2012"
+description: North American Industry Classification System code descriptions
+version_description: 2012 revision
 origin: United States Census Bureau
 origin_url: http://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2012
 contributor: Christopher Groskopf

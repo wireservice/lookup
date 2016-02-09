@@ -1,11 +1,11 @@
 fips,state
-01,Alabama
-02,Alaska
-04,Arizona
-05,Arkansas
-06,California
-08,Colorado
-09,Connecticut
+1,Alabama
+2,Alaska
+4,Arizona
+5,Arkansas
+6,California
+8,Colorado
+9,Connecticut
 10,Delaware
 11,District of Columbia
 12,Florida
@@ -51,5 +51,20 @@ fips,state
 55,Wisconsin
 56,Wyoming
 60,American Samoa
+64,Federated States of Micronesia
+66,Guam
+68,Marshall Islands
+69,Commonwealth of the Northern Mariana Islands
+70,Palau
 72,Puerto Rico
-78,Virgin Islands
+74,U.S. Minor Outlying Islands
+78,U.S. Virgin Islands
+81,Baker Island
+84,Howland Island
+86,Jarvis Island
+67,Johnston Atoll
+89,Kingman Reef
+71,Midway Islands
+76,Navassa Island
+95,Palmyra Atoll
+79,Wake Island

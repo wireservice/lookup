@@ -1,8 +1,7 @@
-dataset: United States Postal System state codes and US state names
-description: TKTK
+description: United States Postal System state codes and US state names
 version_description: N/A
-origin: Census Bureau
-origin_url: TKTK
+origin: United States Census Bureau
+origin_url: http://www.census.gov/geo/reference/ansi.html
 contributor: Christopher Groskopf
 contributor_email: chrisgroskopf@gmail.com
 columns:

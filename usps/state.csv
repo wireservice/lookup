@@ -38,7 +38,6 @@ OH,Ohio
 OK,Oklahoma
 OR,Oregon
 PA,Pennsylvania
-PR,Puerto Rico
 RI,Rhode Island
 SC,South Carolina
 SD,South Dakota
@@ -47,8 +46,13 @@ TX,Texas
 UT,Utah
 VT,Vermont
 VA,Virginia
-VI,Virgin Islands
 WA,Washington
 WV,West Virginia
 WI,Wisconsin
 WY,Wyoming
+AS,American Samoa
+GU,Guam
+MP,Northern Mariana Islands
+PR,Puerto Rico
+UM,U.S. Minor Outlying Islands
+VI,U.S. Virgin Islands
