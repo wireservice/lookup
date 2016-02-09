@@ -33,16 +33,18 @@ AL,2013,4830533
 Each CSV table must be accompanied by a YAML file. That file must have an identical filename, plus the `.yml` extension. For example, the table `fips/state.csv` must be accompanied by `fips/state.csv.yml`. This file should contain the following metadata:
 
 ```yaml
-description: A description of the data, including any notes necessary to use it correctly.
-version_description: A description of the specific version of the data.
-origin: The source of the data, such as "United States Census Bureau"
-origin_url: A link to the source of the data. Be as specific as possible.
-contributor: The name of the person submitting the data.
-contributor_email: The email address of the person submitting the data.
+data: A description of the data, including any notes necessary to use it correctly.
+version: A description of the specific version of the data.
+sources:
+  - A list of sources for the data, such as "United States Census Bureau", including URLs whenever possible
+contributors:
+  - The name <and email of anyone who has contributed to this table>
 columns:
   key_column_name: Agate column type, such as "Text" or "Number"
   value_column_name: Agate column type, such as "Text" or "Number"
 ```
+
+See `naics/description.2007.csv.yaml` for an example of a complete metadata file.
 
 ## Rules for including data
 
@@ -52,7 +54,7 @@ Anyone may submit a pull request to add a table to this repository, however, the
 * The data must be from an authoritative source.
 * The CSV must be in "standardized" CSV format. (Run through [in2csv](http://csvkit.readthedocs.org/en/latest/scripts/in2csv.html).)
 * All keys must be unique. (No split/combine crosswalks.)
-* All keys must be proper identifiers, not names.
+* All keys must be durable identifiers, not names.
 * All filenames and keys must use `snake_case`.
 * Periods must not be used in filenames or keys except as defined above.
 * Four digit years must be used everywhere.

@@ -1,9 +1,9 @@
-description: United States Postal System state codes and US state names
-version_description: N/A
-origin: United States Census Bureau
-origin_url: http://www.census.gov/geo/reference/ansi.html
-contributor: Christopher Groskopf
-contributor_email: chrisgroskopf@gmail.com
+data: United States Postal System state codes and US state names
+version: N/A
+sources:
+  - United States Census Bureau, http://www.census.gov/geo/reference/ansi.html
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
   usps: Text
   state: Text

@@ -1,9 +1,9 @@
-description: North American Industry Classification System code descriptions
-version_description: 2012 revision
-origin: United States Census Bureau
-origin_url: http://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2012
-contributor: Christopher Groskopf
-contributor_email: chrisgroskopf@gmail.com
+data: North American Industry Classification System code descriptions
+version: 2012 revision
+sources:
+  - United States Census Bureau, http://www.census.gov/cgi-bin/sssd/naics/naicsrch?chart=2012
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
   naics: Text
   description: Text
