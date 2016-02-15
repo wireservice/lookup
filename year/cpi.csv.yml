@@ -1,0 +1,9 @@
+data: Consumer Price Index for All Urban Consumers by year
+version: N/A
+sources:
+  - Federal Reserve Bank of St. Louis, https://research.stlouisfed.org/fred2/series/CPIAUCNS
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  year: Text
+  cpi: Number

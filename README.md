@@ -59,3 +59,7 @@ Anyone may submit a pull request to add a table to this repository, however, the
 * Periods must not be used in filenames or keys except as defined above.
 * Four digit years must be used everywhere.
 * Each CSV must be 250KB or less.
+
+## I found an error!
+
+If people are going to rely on the tables in this dataset then there must be a log every error. If you find an error in any data, please send a pull request with a correction. That same pull request must also add an entry to `ERRORS.md` describing precisely the nature of the error.
