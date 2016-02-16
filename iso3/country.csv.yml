@@ -1,0 +1,9 @@
+data: ISO 3166 3-character country codes
+version: N/A
+sources:
+  - CIA World Factbook, https://www.cia.gov/library/publications/the-world-factbook/appendix/appendix-d.html
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  iso3: Text
+  country: Text
