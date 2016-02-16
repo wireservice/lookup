@@ -1,6 +1,6 @@
 # lookup
 
-A repository of journalist's lookup tables. Designed for programmatic access using tools such as [agate-lookup](TKTK).
+A repository of journalist's lookup tables. Designed for programmatic access using tools such as [agate-lookup](https://github.com/wireservice/agate-lookup).
 
 Anyone may contribute a lookup table by sending a pull request to this repository.
 
