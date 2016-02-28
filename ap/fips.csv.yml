@@ -1,0 +1,9 @@
+data: State FIPS codes and Associated Press names
+version: N/A
+sources:
+  - Purdue Online Writing Lab, https://owl.english.purdue.edu/owl/resource/735/02/
+contributors:
+  - Ben Welsh <ben.welsh@gmail.com>
+columns:
+  fips: Text
+  name: Text
