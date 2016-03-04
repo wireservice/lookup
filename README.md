@@ -40,8 +40,12 @@ sources:
 contributors:
   - The name <and email of anyone who has contributed to this table>
 columns:
-  key_column_name: Agate column type, such as "Text" or "Number"
-  value_column_name: Agate column type, such as "Text" or "Number"
+  key_column_name:
+    name: Human readable name for this column
+    type: Agate column type, such as "Text" or "Number"
+  value_column_name:
+    name: Human readable name for this column
+    type: Agate column type, such as "Text" or "Number"
 ```
 
 See `naics/description.2007.csv.yaml` for an example of a complete metadata file.

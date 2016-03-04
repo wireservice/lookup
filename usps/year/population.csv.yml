@@ -7,6 +7,12 @@ sources:
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  usps: Text
-  year: Text
-  population: Number
+  usps:
+    name: USPS state abbreviation
+    type: Text
+  year:
+    name: Year
+    type: Text
+  population:
+    name: State population
+    type: Number

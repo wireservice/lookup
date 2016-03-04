@@ -1,9 +1,13 @@
-data: United States Postal System state codes and US state names
+data: United States Postal System state abbreviations and US state names
 version: N/A
 sources:
   - United States Census Bureau, http://www.census.gov/geo/reference/ansi.html
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  usps: Text
-  state: Text
+  usps:
+    name: USPS state abbreviation
+    type: Text
+  state:
+    name: State name
+    type: Text

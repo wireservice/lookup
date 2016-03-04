@@ -5,5 +5,9 @@ sources:
 contributors:
   - Ben Welsh <ben.welsh@gmail.com>
 columns:
-  fips: Text
-  name: Text
+  fips:
+    name: State FIPS code
+    type: Text
+  ap:
+    name: Associated Press state abbreviation
+    type: Text

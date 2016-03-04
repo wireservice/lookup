@@ -1,0 +1,13 @@
+data: United States Postal System state abbreviations and Associated Press names
+version: N/A
+sources:
+  - Purdue Online Writing Lab, https://owl.english.purdue.edu/owl/resource/735/02/
+contributors:
+  - Ben Welsh <ben.welsh@gmail.com>
+columns:
+  usps:
+    name: USPS state abbreviation
+    type: Text
+  ap:
+    name: Associated Press state abbreviation
+    type: Text

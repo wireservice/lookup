@@ -5,5 +5,9 @@ sources:
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  iso3: Text
-  country: Text
+  iso3:
+    name: Country code
+    type: Text
+  country:
+    name: Country name
+    type: Text

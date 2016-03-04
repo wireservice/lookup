@@ -5,5 +5,9 @@ sources:
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  naics: Text
-  description: Text
+  naics:
+    name: 2012 NAICS code
+    type: Text
+  description:
+    name: 2012 NAICS description
+    type: Text

@@ -5,5 +5,9 @@ sources:
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  naics: Text
-  description: Text
+  naics:
+    name: 2007 NAICS code
+    type: Text
+  description:
+    name: 2007 NAICS description
+    type: Text

@@ -5,6 +5,12 @@ sources:
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
-  year: Text
-  month: Text
-  cpi: Number
+  year:
+    name: Year
+    type: Text
+  month:
+    name: Month
+    type: Text
+  cpi:
+    name: Consumer Price Index
+    type: Text
