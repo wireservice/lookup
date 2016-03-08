@@ -13,4 +13,4 @@ columns:
     type: Text
   cpi:
     name: Consumer Price Index
-    type: Text
+    type: Number
