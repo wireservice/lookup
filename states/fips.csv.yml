@@ -1,0 +1,13 @@
+data: U.S. state names and FIPS codes
+version: N/A
+sources:
+  - United States Census Bureau, http://www.census.gov/geo/reference/ansi.html
+contributors:
+  - Ben Welsh <ben.welsh@gmail.com>
+columns:
+  state:
+    name: State name
+    type: Text
+  fips:
+    name: State FIPS code
+    type: Text
