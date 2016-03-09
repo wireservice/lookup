@@ -1,0 +1,14 @@
+data: U.S. state names and Associated Press abbreviations
+version: N/A
+sources:
+  - United States Census Bureau, http://www.census.gov/geo/reference/ansi.html
+  - Purdue Online Writing Lab, https://owl.english.purdue.edu/owl/resource/735/02/
+contributors:
+  - Ben Welsh <ben.welsh@gmail.com>
+columns:
+  state:
+    name: State name
+    type: Text
+  ap:
+    name: Associated Press state abbreviation
+    type: Text
