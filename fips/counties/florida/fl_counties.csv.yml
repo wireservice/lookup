@@ -1,0 +1,13 @@
+data: Florida county FIPS codes and county names
+version: N/A
+sources:
+  - United States Enviornmental Protection Agency, https://www.epa.gov/enviro/county-fips-code-listing-state-florida
+contributors:
+  - Chris Alcantara <chris.a.alcantara@gmail.com>
+columns:
+  fips:
+    name: Florida FIPS code
+    type: Text
+  county:
+    name: County name
+    type: Text
