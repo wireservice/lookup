@@ -1,0 +1,20 @@
+data: County FIPS codes and US county/state names
+version: N/A
+sources:
+  - United States Census Bureau, http://www.census.gov/geo/reference/ansi_statetables.html
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+  - Aaron Weiss <aaronwe@gmail.com>
+columns:
+  admin_fips:
+    name: County FIPS code
+    type: Text
+  county_name:
+    name: County name
+    type: Text
+  state_usps:
+    name: USPS state abbreviation
+    type: Text
+  state_long:
+    name: State name
+    type: Text
