@@ -1,0 +1,13 @@
+data: Bureau of Labor Statistics occupation code descriptions
+version: 2010 edition
+sources:
+  - Bureau of Labor Statistics, https://www.bls.gov/soc/#materials
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  soc:
+    name: 2010 SOC code
+    type: Text
+  description:
+    name: 2010 SOC description
+    type: Text
