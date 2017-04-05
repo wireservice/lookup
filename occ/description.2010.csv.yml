@@ -1,0 +1,13 @@
+data: American Community Survey occupation code descriptions
+version: 2010 edition
+sources:
+  - United States Census Bureau, https://www.census.gov/people/io/methodology/
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  occ:
+    name: 2010 OCC code
+    type: Text
+  description:
+    name: 2010 OCC description
+    type: Text
