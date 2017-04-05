@@ -1,7 +1,7 @@
-data: American Community Survey occupation code descriptions
+data: IPUMS American Community Survey occupation code descriptions
 version: 2010 edition
 sources:
-  - United States Census Bureau, https://www.census.gov/people/io/methodology/
+  - IPUMS, https://usa.ipums.org/usa-action/variables/OCC2010#codes_section
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
