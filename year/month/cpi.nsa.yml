@@ -1,0 +1,16 @@
+data: Consumer Price Index for All Urban Consumers by year and month
+version: Seasonally adjusted
+sources:
+  - US Bureau of Labor Statistics, https://data.bls.gov/timeseries/CUUR0000SA0
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  year:
+    name: Year
+    type: Text
+  month:
+    name: Month
+    type: Text
+  cpi:
+    name: Consumer Price Index
+    type: Number

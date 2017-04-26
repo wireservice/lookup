@@ -1,7 +1,7 @@
 data: Consumer Price Index for All Urban Consumers by year and month
-version: N/A
+version: Seasonally adjusted
 sources:
-  - Federal Reserve Bank of St. Louis, https://research.stlouisfed.org/fred2/series/CPIAUCNS
+  - Federal Reserve Bank of St. Louis, https://data.bls.gov/timeseries/CUSR0000SA0
 contributors:
   - Christopher Groskopf <chrisgroskopf@gmail.com>
 columns:
