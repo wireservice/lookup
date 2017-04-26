@@ -1,0 +1,13 @@
+data: NCHS Urban-Rural Classification Scheme for Counties
+version: 2006 edition
+sources:
+  - United States National Center for Health Statistics, https://www.cdc.gov/nchs/data_access/urban_rural.htm
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  fips:
+    name: County FIPS code
+    type: Text
+  state:
+    name: NCHS class
+    type: Text
