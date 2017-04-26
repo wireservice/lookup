@@ -1,0 +1,13 @@
+data: County FIPS codes and US county names
+version: N/A
+sources:
+  - United States Census Bureau, http://www.census.gov/geo/reference/ansi_statetables.html
+contributors:
+  - Christopher Groskopf <chrisgroskopf@gmail.com>
+columns:
+  fips:
+    name: County FIPS code
+    type: Text
+  county:
+    name: County name
+    type: Text
