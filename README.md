@@ -1,6 +1,6 @@
 # lookup
 
-A repository of journalist's lookup tables. Designed for programmatic access using tools such as [agate-lookup](https://github.com/wireservice/agate-lookup).
+A repository of lookup tables for journalists. Designed for programmatic access using tools such as [agate-lookup](https://github.com/wireservice/agate-lookup) (Python) and [lookupr](https://github.com/wireservice/lookupr) (R).
 
 Anyone may contribute a lookup table by sending a pull request to this repository.
 
@@ -16,7 +16,7 @@ AZ,Arizona
 ...
 ```
 
-Sometimes the mapping from a key to value varies over time. For example, NAICS codes change every five years. In this case, a version specifier may be included in the filename. For example, `naics/description.2007.csv` is the 2007 version of the code mapping and `naics/description/2012.csv` is the 2012 version.
+Sometimes the mapping from a key to value varies over time. For example, NAICS codes change every five years. In this case, a version specifier may be included in the filename. For example, `naics/description.2007.csv` is the 2007 version of the code mapping and `naics/description.2012.csv` is the 2012 version.
 
 It may also be useful to be able to map two keys to a single value. For example, you might want to look up population by state *and* year. In those cases key folders can be nested and the CSV can contain more than one key column. For example, `usps/year/population.csv` contains a CSV that looks like this:
 
@@ -66,4 +66,4 @@ Anyone may submit a pull request to add a table to this repository, however, the
 
 ## I found an error!
 
-If people are going to rely on the tables in this dataset then there must be a log every error. If you find an error in any data, please send a pull request with a correction. That same pull request must also add an entry to `ERRORS.md` describing precisely the nature of the error.
+If you find an error in any data, please send a pull request that corrects the mistake and adds a record of the correction to `ERRORS.md`. Try to describe the nature of the error as precisely as possible.
